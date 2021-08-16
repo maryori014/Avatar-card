@@ -1,0 +1,48 @@
+body {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+}
+.main-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(179.04deg, #BBB8BF 0.82%, #EBEBF2 97.99%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.avatar-container {
+    width: 10rem;
+    height: 10rem;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    border:solid 10px #F2C53D;
+}
+.avatar-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    position: absolute;
+}
+.texto-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(transparent, #A6763C);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    transform: translateY(100%);
+}
+.texto-container h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 1.4em;
+    margin-bottom: 1em;
+}
+.hovic{
+    display: none;
+    background-image: linear-gradient(180deg, yellow);
+}
